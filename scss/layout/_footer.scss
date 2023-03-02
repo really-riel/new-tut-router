@@ -1,0 +1,9 @@
+@use "../abstract" as *;
+
+.Footer {
+  @include headerFooter;
+  p {
+    margin: auto;
+    font-weight: 700;
+  }
+}

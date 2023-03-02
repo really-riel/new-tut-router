@@ -1,0 +1,8 @@
+@use "../abstract" as *;
+
+.About {
+  @include generalStyles;
+  p {
+    margin-top: 1rem;
+  }
+}

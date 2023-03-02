@@ -1,0 +1,8 @@
+@use "../abstract" as *;
+
+.Header {
+  @include headerFooter;
+
+  h1 {
+  }
+}

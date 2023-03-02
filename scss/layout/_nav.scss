@@ -1,0 +1,52 @@
+.Nav {
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    li {
+      padding: 1rem;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+      a.selected {
+        text-decoration: underline;
+        text-decoration-color: #66d8f5;
+        text-decoration-thickness: 3px;
+      }
+    }
+    li:hover,
+    li:focus {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.searchForm {
+  width: 80%;
+  padding: 1rem 0 0 0.75rem;
+
+  input[type="text"] {
+    font-family: inherit;
+    width: 100%;
+    min-height: 48px;
+    font-size: 1rem;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    outline: none;
+  }
+  label {
+    position: absolute;
+    left: -10000px;
+  }
+}

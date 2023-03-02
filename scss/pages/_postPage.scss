@@ -1,0 +1,9 @@
+@use "../abstract" as *;
+
+.PostPage {
+  @include generalStyles;
+  p,
+  h2 {
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,15 @@
+@mixin headerFooter {
+  width: 100%;
+  background-color: #66d8fb;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin generalStyles {
+  width: 100%;
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: #fff;
+}
